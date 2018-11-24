@@ -1,0 +1,208 @@
+body{
+    background: #ececec;
+}
+
+.bg-light{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    opacity: .6;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    color: #4B4B4B;
+    font-weight: bold
+}
+.language{
+    font-size: 20px !important;
+    color: #009E49 !important;
+}
+
+@media (min-width: 1200px)
+{
+    .container{
+        max-width: 1157px;
+    }
+}
+.navbar-brand > img{
+    height: 45px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link:active,
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: transparent;
+    border-bottom: 1px solid #ED1B24;
+    padding-bottom: 0;
+}
+header{
+    background-image: url('../images/website-imgs/Rectangle 154@2x.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.header-title h3{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 50px;  
+}
+
+.box > .icon-text > .text { 
+    position: relative; 
+    z-index: 2; 
+    width: 88px; 
+    margin-left: 6%; 
+    padding-top:0;
+    font-size: 36px;
+    color: #707070;
+    background-image: linear-gradient(to bottom, rgba(236, 236, 236,1), rgba(236,236,236, 1));
+}
+.box > .icon-text > .info {  
+    background:#ececec; 
+    border: 1px solid rgba(112, 112, 112, .75); 
+    padding: 15px 0 15px 0;
+    margin-top: -35px;
+    margin-bottom: 10%;
+}
+
+.box > .icon-text > .info > p { 
+    font-family: 'Segoe UI'; 
+    font-size: 13px; 
+    color: #444343; 
+    line-height: 1.5em; 
+    margin: 25px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.signup-btns{
+    margin: 8%;
+    text-align: center;
+}
+.signup-btns > button{
+    margin: 2%;
+    width: 32%;
+    border-radius:0;
+    cursor: pointer; 
+}
+.signup-btns> button.login{
+    box-shadow: 2px 3px 2px #C4C1C1;
+    background: #009E49;
+    border: none;
+    color: #f9f9f9;
+    font-family: 'Segoe UI';
+    font-size: 27px;
+    font-weight: bold;
+}
+.signup-btns> button.register{
+    border: 1px solid #ED1B24;
+    color: #ED1B24;
+    font-family: 'Segoe UI';
+    font-size: 27px;
+    font-weight: bold;
+}
+div.top-footer{
+    background-image: url('../images/website-imgs/top-footer-background-image.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 170px;
+}
+.footer-menu .footer-nav .footer-item.footer-link > a{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 400;
+    color: #C4C1C1
+}
+.copyright > p{
+    float: right;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 400;
+    color: #C4C1C1;
+}
+
+.bottom-footer{
+    padding-top: 1%;
+    background-color: #201F1F;
+}
+.footer-nav{
+    display: inline-flex;
+    margin-left: 6rem;
+}
+.footer-item{
+    padding-left: 1%;
+    flex: 0 0 25%
+}
+a.footer-link{
+    color: #C4C1C1;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.progressbar {
+    counter-reset: step;
+}
+.progressbar li {
+    list-style-type: none;
+    width: 25%;
+    float: left;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color:  #444343;
+}
+.progressbar li:before {
+    width: 40px;
+    height: 35px;
+    content: counter(step);
+    counter-increment: step;
+    line-height: 30px;
+    border: 1px solid #C8E6C9;
+    color: #C8E6C9;
+    font-style: italic;
+    font-weight: bold;
+    border: dotted with solid dashed;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.progressbar li:after {
+    width: 80%;
+    height: 5px;
+    content: '';
+    position: absolute;
+    background-color:  #C8E6C9;
+    border-radius: 35px;
+    top: 15px;
+    left: -40%;
+    z-index: -1;
+}
+.progressbar li:first-child:after {
+    content: none;
+}
+.progressbar li.active {
+    color: #444343;
+}
+.progressbar li.active:before {
+    border-color: #C8E6C9;
+    color:  #C8E6C9; 
+}
+.progressbar li.active + li:after {
+    background-color: #C8E6C9;
+    border-radius: 35px;
+}
+.progressbar-section{
+    margin-bottom: 15rem;
+}
+
+
+

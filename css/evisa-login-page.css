@@ -1,0 +1,35 @@
+header{
+    margin-bottom: 4%;
+}
+.content{
+    margin: auto;
+    vertical-align: middle;
+    background: #fff;
+    padding: 2%;
+    width: 40%;
+}
+.form-title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #009E49;
+}
+.input-group>.custom-select:not(:first-child), 
+.input-group>.form-control:not(:first-child){
+    border: none;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.input-group>.custom-select:not(:first-child):focus,
+.input-group>.form-control:not(:first-child):focus {
+    color: #495057;
+    background-color: #fff;
+    border-bottom: 1px solid !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+.footer{
+    margin-top: 4%;
+}

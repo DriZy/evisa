@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=e, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-3.3.7/js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/e-visa-style.css">
+    <title>E-Visa Template</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row header">
+            <div class="col-md-4 header-content" id="header-ministry">
+                <h4 class="french">ministère de la sécurité</h4><hr>
+                <h5 class="english">ministry of security</h5><br/><hr>
+            </div>
+            <div class="col-md-4 header-content" id="header-logo">
+               <img src="images/eVisa-country-seal.png" alt="E-Visa Country Seal">
+            </div>
+            <div class="col-md-4 header-content" id="header-moto">
+                <h4 class="french">Burkina Faso</h4><hr>
+                <h5><p class="french-moto">Unité, Progrès, Justice</p>
+                    <p class="english-moto">Unity, Progress, Justice</p>    
+                </h5><hr>
+            </div>
+        </div>
+        <div class="col-md-12 description-header">
+            <h2 class="french-title">PRÉ-INSCRIPTION eVISA APPROUVÉE</h2>
+            <h2 class="english-title">eVISA APPROVED PRE-ENROLEMENT</h2>
+            <div class="evisa-id">
+                <input type="text" value="VISA  #"  placeholder="VISA #">
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="#">
+                <div class="evisa-info">    
+                    <div class="row">     
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-4">
+                                <p class="french-label">Valide à partir de</p>
+                                <p class="english-label">Valid from</p>
+                            </label>
+                            <input type="text"  class="col-md-8" name="valid-from" value="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                                <label for="" class="col-md-4">
+                                        <p class="french-label">Valable jusqu'au</p>
+                                        <p class="english-label">Valid up to</p>
+                                    </label>
+                            <input type="text"  class="col-md-8" name="valid-to" value="">
+                        </div> 
+                    </div>
+                    <div class="row">     
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-4">
+                                <p class="french-label">Nombre d'entrées</p>
+                                <p class="english-label">Number of entries</p>
+                            </label>
+                            <input type="text"  class="col-md-8" name="number-of-entries" value="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-4">
+                                <p class="french-label">Code eVisa</p>
+                                <p class="english-label">eVisa Code</p>
+                            </label>
+                            <input type="text"  class="col-md-8" name="evisa-code" value="">
+                        </div> 
+                    </div>
+                    <div class="row">         
+                        <div class="col-md-12  form-group">
+                            <label for="" class="col-md-2">
+                                <p class="french-label">Type de visa</p>
+                                <p class="english-label">Visa type</p>
+                            </label>
+                            <textarea type="textarea"  class="col-md-10" name="visa-type" value=""></textarea>
+                        </div> 
+                    </div>
+                </div>    
+                <div class="person-info">
+                    <div class="row">         
+                        <div class="col-md-12  form-group">
+                            <label for="" class="col-md-2">
+                                <p class="french-label">Nom</p>
+                                <p class="english-label">Surname</p>
+                            </label>
+                            <input type="text"  class="col-md-10" name="surname" value="">
+                        </div> 
+                    </div>
+                    <div class="row">         
+                        <div class="col-md-12  form-group">
+                            <label for="" class="col-md-2">
+                                <p class="french-label">Prénoms</p>
+                                <p class="english-label">Given Names</p>
+                            </label>
+                            <input type="text"  class="col-md-10" name="given-names" value="">
+                        </div> 
+                    </div>
+                    <div class="row">     
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-4">
+                                <p class="french-label">Date de naissance</p>
+                                <p class="english-label">Date of Birth</p>
+                            </label>
+                            <input type="date"  class="col-md-8" name="date-of-birth" value="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-4">
+                                <p class="french-label">Nationalité</p>
+                                <p class="english-label">Nationality</p>
+                            </label>
+                            <input type="text"  class="col-md-8" name="nationality" value="">
+                        </div> 
+                    </div>
+                    <div class="row">     
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-4">
+                                <p class="french-label">Sexe</p>
+                                <p class="english-label">Sex</p>
+                            </label>
+                            <input type="text"  class="col-md-8" name="sex" value="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-4">
+                                <p class="french-label">Pays de résidence</p>
+                                <p class="english-label">Country of Residence</p>
+                            </label>
+                            <input type="text"  class="col-md-8" name="country-of-residence" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="passport-info">
+                    <div class="row">     
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-6">
+                                <p class="french-label">Numéro de passeport</p>
+                                <p class="english-label">Passport Number</p>
+                            </label>
+                            <input type="text"  class="col-md-6 passport-input " name="passeport-number" value="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-4">
+                                <p class="french-label">Date délivrance</p>
+                                <p class="english-label">Date of issue</p>
+                            </label>
+                            <input type="text"  class="col-md-8 passport-input" name="date-issued" value="">
+                        </div> 
+                    </div>
+                    <div class="row">     
+                        <div class="col-md-6 form-group">
+                            <label for="" class="col-md-6">
+                                <p class="french-label">Type</p>
+                                <p class="english-label">Type</p>
+                            </label>
+                            <input type="text"  class="col-md-6 passport-input " name="type" value="">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="barcode-section">
+                <div class="col-md-8">
+                    <div class="row">
+                        <p class="french">Veuillez présenter ce document au bureau d'inscription au point d'entrée</p>
+                        <p class="english">Please present this document to the enrolement office at the point of entry</p>
+                    </div><br/>
+                    <div class="row">
+                        <p class="french">Ce document est une autorisation de visa d'entrée au Burkina Faso</p>
+                        <p class="english">This document is an entry Visa authorisation to Burkina Faso</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img class="barcode-image" src="images/eVisa-background.png" alt="eVisa barcode">
+                </div>
+            </div> 
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="images/eVisa-color-pattern.png" alt="footer image for eVISA">
+        <div class="sub-footer">
+            <div class="col-md-2 page-number">
+                <p>1 of 1</p>
+            </div>
+            <div class="col-md-7 site-url">
+                <a href="https://www.eVisaBurkinaFaso.gov">https://www.eVisaBurkinaFaso.gov</a>
+            </div>
+            <div class="col-md-3 date-time">
+                <p>24/11/2018,</p>
+                <p class="date">13:38</p>
+            </div>
+        </div>
+    </footer>   
+</body>
+</html>
