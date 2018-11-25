@@ -1,4 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
 body{
+    position: relative;
     background: #ececec;
 }
 
@@ -50,7 +57,9 @@ header{
     font-weight: bolder;
     font-size: 50px;  
 }
-
+.col-xs-12.col-sm-12.col-md-12{
+    margin-top: 6%;
+}
 .box > .icon-text > .text { 
     position: relative; 
     z-index: 2; 
@@ -111,6 +120,7 @@ div.top-footer{
     background-size: cover;
     height: 170px;
 }
+
 .footer-menu .footer-nav .footer-item.footer-link > a{
     font-family: 'Segoe UI';
     font-size: 20px;
@@ -177,14 +187,13 @@ a.footer-link{
 }
 .progressbar li:after {
     width: 80%;
-    height: 5px;
+    height: 10px;
     content: '';
     position: absolute;
     background-color:  #C8E6C9;
     border-radius: 35px;
     top: 15px;
     left: -40%;
-    z-index: -1;
 }
 .progressbar li:first-child:after {
     content: none;
@@ -203,6 +212,3 @@ a.footer-link{
 .progressbar-section{
     margin-bottom: 15rem;
 }
-
-
-

@@ -1,0 +1,71 @@
+.box > .icon-text > .text{
+    width: 240px;
+}
+.box > .icon-text > .info{
+    padding: 3%;
+}
+.table{
+    background: #fff;
+    padding:1%;
+}
+thead.thead{
+    background: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.table thead th{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #707070;
+    vertical-align: middle;
+}
+.table td, .table th{
+    color: #505050;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 300;
+}
+td.table-action a,
+.user-info a{
+    color: #7975EC;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 300;
+}
+td.table-action a:hover,
+td.table-action a:focus,
+.user-info a:hover,
+.user-info a:focus{
+    text-decoration: none;
+}
+.new-application{
+    float: right;
+    display: inline-flex;
+    margin-top: -5%;
+    padding-right: 1%;
+}
+.col-xs-12.col-sm-12.col-md-12{
+    margin-top: 10%;
+}
+
+.user-info{
+    display:grid;
+}
+.user-info a{
+    padding-right: 25px;
+    text-align: right;
+}
+
+button {
+    box-shadow: 2px 3px 2px #C4C1C1;
+    background: #009E49;
+    border: none;
+    color: #f9f9f9;
+    font-family: 'Segoe UI';
+    font-size: 27px;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 2px;
+}

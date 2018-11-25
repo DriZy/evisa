@@ -7,6 +7,7 @@ header{
     background: #fff;
     padding: 2%;
     width: 40%;
+    box-shadow: 0px 3px 6px rgba(0,0,0, .42);
 }
 .form-title{
     text-align: center;
@@ -14,13 +15,33 @@ header{
     font-family: Segoe UI;
     font-weight: bold;
     color: #009E49;
+    margin-bottom: 5%;
 }
 .input-group>.custom-select:not(:first-child), 
 .input-group>.form-control:not(:first-child){
     border: none;
     border-bottom: 1px solid #f8f8f8;
+    margin-bottom: 3%;
 }
 
+button{
+    background: #B7B5B5;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0,0,0, .42);
+    cursor: pointer;
+    /* transition-timing-function: ease-out;
+    transition: 0.3s; */
+}
+button:hover,
+button:focus{
+    cursor: pointer;
+    transition-timing-function: ease-out;
+    transition: 0.3s;
+}
 .input-group>.custom-select:not(:first-child):focus,
 .input-group>.form-control:not(:first-child):focus {
     color: #495057;
@@ -29,7 +50,50 @@ header{
     border-top: none !important;
     border-left: none !important;
     border-right: none !important;
+    box-shadow: none;
+}
+.submit-section{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    margin: 5% 0%; 
+}
+.hint-text a{
+    color: #7975EC; 
+    vertical-align: middle;
+    margin: auto;
+}
+.form-footer{
+    margin-bottom: 3%;
+    color: #707070;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+}
+a,
+.hint-text a,
+.form-footer >a{
+    color:  #7975EC;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+a:hover,
+a:focus,
+.hint-text a:hover,
+.hint-text a:focus,
+.form-footer >a:hover,
+.form-footer >a:focus{
+    text-decoration: none;
 }
 .footer{
     margin-top: 4%;
+}
+
+/* styles for registration form only */
+
+input[type=checkbox], input[type=radio]{
+    height: 40px;
+    width: 20px;
+}
+a{
+    padding-left: 3%;
 }

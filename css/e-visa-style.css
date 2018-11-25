@@ -1,4 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    position: relative;
     background-image: url('../images/eVisa-background.png') ;
 }
 
@@ -53,6 +59,7 @@ hr{
     margin-top: 0px;
     border-top: 3px solid #000;
     width: 70px;
+    margin-left: 140px;
 }
 
 .description-header{

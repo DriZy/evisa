@@ -11,7 +11,8 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/evisa-landing-page-style.css">
-      <title>eVisa Landing Page</title>
+      <link rel="stylesheet" href="css/evisa-my-application-style.css">
+      <title>eVisa Registration Page</title>
   </head>
   <body>
      <header>
@@ -46,34 +47,66 @@
      </header>
     <div class="container">
       <div class="content">
+        <div class="new-application">
+            <div class="user-info">
+                <a href="#">email@domain.com</a>
+                <a href="#">Sign Out</a>
+            </div>
+            <button type="button">+ New Application</button>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="box">							
             <div class="icon-text">
-              <p class="text">eVisa</p>
+              <p class="text">My Application</p>
               <div class="info">
-                <p>
-                  The eVisa Burkina Faso is an elactronic travel authorization issued by the government of Burkina Faso.
-                  eVisa is an entry requirement  <br/>to travel to and within Burkina Faso. The Burkinabe eVisa is for touristic or family purpose. <br/>Visitors who enter Burkina Faso are required to present a valid eVisa at the port of entry.
-                </p>
+                    <table class="table">
+                        <thead class="thead">
+                            <tr>
+                                <th scope="col">Application ID</th>
+                                <th scope="col">Applicant's Full Name</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Submission Date</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">111020010</th>
+                            <td>John Duo</td>
+                            <td>In Creation</td>
+                            <td>10/12/17</td>
+                            <td class="table-action"><a href="#">Resume</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">111222151</th>
+                            <td>Mitchel Paul</td>
+                            <td>Completed</td>
+                            <td>13/12/17</td>
+                            <td class="table-action"><a href="#">Resume</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 102221121</th>
+                            <td>Stevenson Harouna</td>
+                            <td>Awaiting Applicant Feedback</td>
+                            <td>12/01/18</td>
+                            <td class="table-action"><a href="#">Respond to Visa Officer</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">111020010</th>
+                            <td>Laika Hernabdez</td>
+                            <td>Approved</td>
+                            <td>1/02/18</td>
+                            <td class="table-action"><a href="#">-- --</a></td>
+                        </tr> 
+                    </tbody>
+                </table>
               </div>
             </div>
           </div> 
         </div>
-        <div class="signup-btns">
-          <button type="submit" class="login">Login</button>
-          <button type="submit" class="register">Register</button>
-        </div>
-        <div class="progressbar-section">
-          <ul class="progressbar">
-            <li class="active">Application</li>
-            <li>Submit Document</li>
-            <li>Payment</li>
-            <li>Approval</li>
-          </ul>
-        </div>
       </div>
     </div>
-    <footer class="footer">
+    <div class="footer">
       <div class="top-footer">  </div>
       <div class="row bottom-footer">
           <div class="col-md-6 footer-menu">
@@ -90,7 +123,7 @@
           <p>© 2018 eVisa-Ministry of Security</p>
         </div>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
 
