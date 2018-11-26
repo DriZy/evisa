@@ -71,6 +71,28 @@ button {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 1280px){
+    .table thead th
+    {
+        font-size: 15px;
+    }
+    .table td, .table th,
+    td.table-action a,
+    .user-info a{
+        font-size: 13px;
+    }
+    .box > .icon-text > .text{
+        font-size: 25px;
+        width: 168px;
+    }
+    button{
+        font-size: 18px;
+    }
+    .new-application{
+        padding-right:2%;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .box > .icon-text > .text{
         font-size: 30px;
@@ -79,11 +101,8 @@ button {
     .new-application{
         padding-right: 2%;
     }
-    
-}
-@media only screen and (max-width: 768px){
     .table thead th{
-        font-size: 8px;
+        font-size: 6px;
     }
     .table td, .table th{
         font-size: 8px;
@@ -111,12 +130,20 @@ button {
         font-size: 30px;
     }
 }
+@media only screen and (max-width: 640px){
+    .table td, .table th{
+        font-size: 5px;
+    }
+    td.table-action a, .user-info a{
+        font-size: 5px;
+    }
+}
 @media only screen and (max-width: 375px){
     .header-title h3 {
         font-size: 25px;
     }
     .table thead th{
-        font-size: 6px;
+        font-size: 5px;
     }
     .box > .icon-text > .text {
         font-size: 10px;
