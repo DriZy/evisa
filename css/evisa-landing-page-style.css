@@ -124,7 +124,8 @@ div.top-footer{
     height: 170px;
 }
 
-.footer-menu .footer-nav .footer-item.footer-link > a{
+.footer-menu .footer-nav .footer-item.footer-link > a,
+.copyright > p{
     font-family: 'Segoe UI';
     font-size: 20px;
     font-weight: 400;
@@ -132,10 +133,6 @@ div.top-footer{
 }
 .copyright > p{
     float: right;
-    font-family: 'Segoe UI';
-    font-size: 20px;
-    font-weight: 400;
-    color: #C4C1C1;
 }
 
 .bottom-footer{
@@ -147,7 +144,7 @@ div.top-footer{
     margin-left: 6rem;
 }
 .footer-item{
-    padding-left: 1%;
+    padding-left: 1rem;
     flex: 0 0 25%
 }
 a.footer-link{
@@ -215,3 +212,73 @@ a.footer-link{
 .progressbar-section{
     margin-bottom: 15rem;
 }
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen and (max-width:747px) {
+    a.footer-link{
+        font-size: 18px;
+    }
+    .footer-nav{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .footer-item{
+        flex: 0 0 50%;
+    }
+    .col-md-5.copyright > p{
+        float: left;
+        padding-left: 10%;
+    }
+    .progressbar-section {
+        margin-bottom: 9rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    a.footer-link{
+        font-size: 18px;
+    }
+    .footer-nav{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .footer-item{
+        flex: 0 0 52%;
+    }
+    .signup-btns> button.register{
+        font-size: 18px;
+    }
+    .signup-btns> button.login{
+        font-size: 18px;
+    }
+    .progressbar li{
+        font-size: 12px;
+    }
+    .progressbar-section {
+        margin-bottom: 7rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .footer-item {
+        flex: 0 0 50%;
+    }
+    .footer-nav{
+        margin-left: 0%;
+    }
+    .progressbar-section {
+        margin-bottom: 12rem;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .footer-item {
+        flex: 0 0 40%;
+    }
+    .progressbar-section {
+        margin-bottom: 11rem;
+    }
+}
+

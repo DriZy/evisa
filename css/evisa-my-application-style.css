@@ -70,3 +70,14 @@ button {
     border-radius: 2px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px){
+    .box > .icon-text > .text{
+        font-size: 30px;
+        width: 200px;
+    }
+    .new-application{
+        padding-right: 2%;
+    }
+    
+}

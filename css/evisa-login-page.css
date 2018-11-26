@@ -97,3 +97,51 @@ input[type=checkbox], input[type=radio]{
 a{
     padding-left: 3%;
 }
+
+@media only screen and (max-width: 1024px){
+    .content{
+        width: 46%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .footer-item {
+        flex: 0 0 50%;
+    }
+    .content{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .content {
+        width: 75%;
+    }
+    .form-footer{
+        font-size: 20px;
+        text-align: center;
+    }
+    .form-title{
+        font-size: 40px;
+    }
+    a, .hint-text a, .form-footer >a{
+        font-size: 20px;
+    }
+    input[type=checkbox], input[type=radio]{
+        height: 32px;
+    }
+}
+
+@media only screen and (max-width: 406px){
+    .terms{
+        font-size: 15px;
+    }
+    input[type=checkbox], input[type=radio]{
+        height: 25px;
+    }
+    .form-title.registration{
+        font-size: 30px;
+    }
+    button.col-md-6{
+        font-size: 22px;
+    }
+}
