@@ -81,3 +81,76 @@ button {
     }
     
 }
+@media only screen and (max-width: 768px){
+    .table thead th{
+        font-size: 8px;
+    }
+    .table td, .table th{
+        font-size: 8px;
+    }
+    td.table-action a, .user-info a{
+        font-size: 8px;
+    }
+    .box > .icon-text > .text {
+        font-size: 14px;
+        width: 98px;
+    }
+    .new-application{
+        padding-right: 4%;
+    }
+    button{
+        font-size: 16px;
+    }
+    .box > .icon-text > .info{
+        margin-top: -27px;
+    }
+    .user-info a{
+        padding-right: 10px;
+    }
+    .header-title h3{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .header-title h3 {
+        font-size: 25px;
+    }
+    .table thead th{
+        font-size: 6px;
+    }
+    .box > .icon-text > .text {
+        font-size: 10px;
+        width: 68px;
+    }
+    .new-application{
+        padding-right: 4%;
+    }
+    button{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .box > .icon-text > .info{
+        margin-top: -25px;
+    }
+    .user-info a{
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .box > .icon-text > .text {
+        font-size: 10px;
+        width: 68px;
+    }
+    .table thead th{
+        font-size: 4px;
+    }
+    .table td, .table th{
+        font-size: 5px;
+    }
+    td.table-action a, .user-info a{
+        font-size: 5px;
+    }
+    .header-title h3 {
+        font-size: 20px;
+    }
+}
