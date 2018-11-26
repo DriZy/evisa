@@ -4,8 +4,10 @@
 }
 
 html,
-body{
-    background-image: url('../images/website-imgs/404\ Page\ 1\ –\ 1@2x.png');
+.body{
+    overflow-x: hidden;
+    max-width: 100%;
+    background-image: url('../images/website-imgs/header-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,14 +67,19 @@ body{
 .error-message h4{
     color: #101312;
     font-family: 'Segoe UI';
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bolder;
 }
 .error-message p{
     color: #201F1F;
     font-family: 'Segoe UI';
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bolder;
+}
+.error-message p.bot-message{
+    font-style: italic;
+    font-size: 17px;
+    color: #4B4B4B
 }
 .error-image p{
     font-family: 'Segoe UI';
@@ -94,6 +101,7 @@ body{
     font-family: 'Segoe UI';
     font-size: 27px;
     font-weight: bold;
+   
 }
 .signup-btns> button.register{
     border: 1px solid #ED1B24;
@@ -101,6 +109,7 @@ body{
     font-family: 'Segoe UI';
     font-size: 27px;
     font-weight: bold;
+    background: transparent;
 }
 footer{
     widows: 100%;

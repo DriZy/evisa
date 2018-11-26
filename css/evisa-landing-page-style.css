@@ -5,6 +5,8 @@
 
 html,
 body{
+    overflow-x: hidden;
+    max-width: 100%;
     position: relative;
     background: #ececec;
 }
@@ -43,7 +45,7 @@ body{
     padding-bottom: 0;
 }
 header{
-    background-image: url('../images/website-imgs/Rectangle 154@2x.png');
+    background-image: url('../images/website-imgs/header-background.png');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -112,6 +114,7 @@ header{
     font-family: 'Segoe UI';
     font-size: 27px;
     font-weight: bold;
+    background: transparent;
 }
 div.top-footer{
     background-image: url('../images/website-imgs/top-footer-background-image.png');
